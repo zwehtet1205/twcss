@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Width & Height</title>
+        <style type="text/css">
+            .bg-primary{
+                background-color: blue;
+            }
+            .bg-secondary{
+                background-color: gray;
+            }
+            .bg-success{
+                background-color: green;
+            }
+            .bg-info{
+                background-color: skyblue;
+            }
+            .bg-warning{
+                background-color: orange;
+            }
+            .bg-danger{
+                background-color: tomato;
+            }
+        </style>
+        <script src="https://cdn.tailwindcss.com"></script>
+        
+    </head>
+    <body>
+
+        <h1>This is tailwind css using CDN Link</h1>
+
+        <div class="w-40 bg-primary">Div 1</div>
+        <div class="w-96 bg-secondary">Div 2</div>
+        <div class="w-auto bg-success">Div 3</div>
+        <div class="w-full bg-info">Div 4</div>
+        <div class="w-screen bg-warning">Div 5</div>
+        <div class="w-1/2 bg-danger">Div 6</div>
+
+        <br/>
+        <hr/>
+        <br/>
+
+        <div class="w-40 h-20 bg-primary">Div 1</div>
+        <div class="w-96 h-96 bg-secondary">Div 2</div>
+        <div class="w-auto h-auto bg-success">Div 3</div>
+        <div class="w-full h-full bg-info">Div 4</div>
+        <div class="w-screen h-screen bg-warning">Div 5</div>
+        <div class="w-1/2 h-96 bg-danger">
+            <div class="w-1/2 h-1/2 bg-success">Div 6</div>
+        </div>
+
+    </body>
+</html>
+
+<!-- 
+
+    w-0     width:0px;
+    w-px    width:1px;
+    w-0.5
+    w-1
+    w-1.5
+    w-2
+    w-2.5
+    w-3
+    w-3.5
+    w-4
+
+    5 6 7 8 9 12
+    14 16
+    20 24 28 32 36 40 44 48 52 56 64 72 80
+    96
+    
+-->
+
+<!-- 
+
+    w-auto      width:auto;
+    w-full      width:100%;
+    w-screen    width:100vw;
+    w-1/2       width:50%
+    
+-->
+
+<!-- 
+
+    h-0     height:0px;
+    h-px    height:1px;
+    h-0.5
+    h-1
+    h-1.5
+    h-2
+    h-2.5
+    h-3
+    h-3.5
+    h-4
+
+    5 6 7 8 9 12
+    14 16
+    20 24 28 32 36 40 44 48 52 56 64 72 80
+    96
+    
+-->
+
+<!-- 
+
+    h-auto      height:auto;
+    h-full      height:100%;
+    h-screen    height:100vh;
+    h-1/2       height:50%
+    
+-->

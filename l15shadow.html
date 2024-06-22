@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Shadow</title>
+        <style type="text/css">
+            body{
+                background-color: #f4f4f4;
+            }
+            .d-flexs{
+                width: 600px;
+                display: flex;
+            }
+            .boxes{
+                width: 200px;
+                height: 200px;
+                background-color: #f1f1f1;
+
+                margin: 20px;
+
+
+            }
+        </style>
+        <script src="https://cdn.tailwindcss.com"></script>
+        
+    </head>
+    <body>
+
+        <h1>This is tailwind css using CDN Link</h1>
+
+        <div class="d-flexs">
+            <div class="boxes shadow-none"></div>
+            <div class="boxes drop-shadow-none"></div>
+        </div>
+
+        <div class="d-flexs">
+            <div class="boxes shadow-sm"></div>
+            <div class="boxes drop-shadow-sm"></div>
+        </div>
+
+        <div class="d-flexs">
+            <div class="boxes shadow"></div>
+            <div class="boxes drop-shadow"></div>
+        </div>
+
+        <div class="d-flexs">
+            <div class="boxes shadow-md"></div>
+            <div class="boxes drop-shadow-md"></div>
+        </div>
+
+        <div class="d-flexs">
+            <div class="boxes shadow-lg"></div>
+            <div class="boxes drop-shadow-lg"></div>
+        </div>
+
+        <div class="d-flexs">
+            <div class="boxes shadow-xl"></div>
+            <div class="boxes drop-shadow-xl"></div>
+        </div>
+
+        <div class="d-flexs">
+            <div class="boxes shadow-2xl"></div>
+            <div class="boxes drop-shadow-2xl"></div>
+        </div>
+
+        <div class="d-flexs">
+            <div class="boxes shadow-inner"></div>
+        </div>
+        
+    </body>
+</html>
+
+<!-- 
+   
+    shadow-none     box-shadow: 0 0 0 #000;
+    shadow-sm
+    shadow
+    shadow-md
+    shadow-lg
+    shadow-xl
+    shadow-2xl
+
+    shadow-inner    box-shadow: inset h v b c;
+    
+-->
+
+<!-- 
+   
+    drop-shadow-none     filter: drop-down(0 0 0 #000);
+    drop-shadow-sm
+    drop-shadow
+    drop-shadow-md
+    drop-shadow-lg
+    drop-shadow-xl
+    drop-shadow-2xl
+    
+-->
+
